@@ -3,18 +3,18 @@ For recursive functions one process can't acquire the lock twice.\
 By adding a process to the lock attributes now the process that has acquire the lock can do it again and agian befor releasing the lock.\
 Try it by calling "fact <number>" system call.
 
-### Change in:
-  spinelock.c\
-  spinelock.h\
-  #### adding new system call:
-  syscall.h\
-  syscall.c\
-  sysproc.c\
-  usys.s\
-  proc.c\
-  proc.h\
-  user.h\
-  makefile
+  ### Change in:
+    spinelock.c\
+    spinelock.h\
+    #### adding new system call:
+    syscall.h\
+    syscall.c\
+    sysproc.c\
+    usys.s\
+    proc.c\
+    proc.h\
+    user.h\
+    makefile
   
  
  ##Reader and Writer Lock 
