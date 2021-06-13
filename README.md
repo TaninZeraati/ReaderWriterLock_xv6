@@ -8,7 +8,7 @@ Try it by calling "fact <number>" system call.
 
 ### Change in:
 spinelock.c\
-spinelock.h\
+spinelock.h
 #### adding new system call:
 syscall.h\
 syscall.c\
