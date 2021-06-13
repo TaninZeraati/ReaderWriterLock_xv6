@@ -1,6 +1,6 @@
-#XV6 
+  #XV6
 
-## Adding New Feature for Spine Lock
+  ## Adding a New Feature In Spine Lock
   For recursive functions one process can't acquire the lock twice.\
   By adding a process to the lock attributes now the process that has acquire the lock can do it again and agian befor releasing the   
   lock.\
@@ -25,7 +25,7 @@
     It changes the entered number to binary form and each 0 stands for a writer and each 1 is for a reader.\
     Try it by using "test_rwp <number in decimal>" systemcall.
 
-    ### Change:
+    ###Change:
       adding new system call.\
       adding a new lock (mutex) in proc.h.\
       using the lock and new functions in proc.c
