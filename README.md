@@ -17,14 +17,14 @@ Try it by calling "fact <number>" system call.
     makefile
   
  
- ##Reader and Writer Lock 
-  Creating a reader and writer lock using mutex.\
-  It changes the entered number to binary form and each 0 stands for a writer and each 1 is for a reader.\
-  Try it by using "test_rwp <number in decimal>" systemcall.
-  
-  ### Change:
-  adding new system call.\
-  adding a new lock (mutex) in proc.h.\
-  using the lock and new functions in proc.c
+  ### Reader and Writer Lock:
+    Creating a reader and writer lock using mutex.\
+    It changes the entered number to binary form and each 0 stands for a writer and each 1 is for a reader.\
+    Try it by using "test_rwp <number in decimal>" systemcall.
+
+    ### Change:
+    adding new system call.\
+    adding a new lock (mutex) in proc.h.\
+    using the lock and new functions in proc.c
   
 
